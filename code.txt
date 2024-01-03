@@ -1,9 +1,8 @@
- 
-1.mkdir demo #to make directory
-2.cd demo #to get in demo
-3.git init #to initialize the git in project
-4.New-Item -ItemType File -Path ".\<filename>.txt" #to add files
-5.Add-content -path ".\<filename>.txt" -value " enter waht you want " #to add content
+mkdir demo #to make directory
+cd demo #to get in demo
+git init #to initialize the git in project
+New-Item -ItemType File -Path ".\<filename>.txt" #to add files
+Add-content -path ".\<filename>.txt" -value " enter waht you want " #to add content
 6.Remove-Item -Path ".\name.txt" or Remove-Item -Path ".\name.txt" -Confirm#to remove file , using -confirm it first get confirmation from you before deleting 
 Get-Content -Path ".\love.py" or Get-Content -Path ".\love.py" | Format-List or Get-Content -Path ".\love.py" | more                                  #to view the content , If you want to see the content with line numbers, you can use the Get-Content cmdlet with the Format-List cmdlet   ,    Alternatively, you can use the Get-Content cmdlet with the more alias, which provides a simple paging view
 invoke-item "name.txt" #to open that file
